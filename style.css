@@ -7,7 +7,7 @@ body{
 .home-container{
     background-color: #2D25A0;
     width: 1920px;
-    height: 820px;
+    height: 920px;
 }
 .home-bar a {
     text-decoration: none;
@@ -69,6 +69,26 @@ nav {
     width: 200px;
     height: 44px;
     margin-left: 180px;
+    border-radius: 5px;
+    
+}
+.banner-image img{
+    width: 740px;
+    height: 620px;
+    position: relative;
+    top: 60px;
+    right: 180px;
+    
+}
+.image-1:hover{  
+    transform: rotateY(360deg);
+    transition: 4s ease-out;
+    
+}
+
+.banner-head{
+    display:flex;
+    justify-content: space-between;
 }
 
 
