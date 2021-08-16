@@ -7,7 +7,7 @@ body{
 .home-container{
     background-color: #2D25A0;
     width: 1920px;
-    height: 677px;
+    height: 820px;
 }
 .home-bar a {
     text-decoration: none;
@@ -42,3 +42,39 @@ nav {
    padding-right: 10px;
 
 }
+.headline{
+    color: #FFFFFF;
+    font-family: "poppins";
+    font-weight: 700;
+    font-size: 90px;
+    padding-left: 180px;
+    margin-top: 120px;
+}
+
+.watch-live{
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+}
+.arrow-icon a{
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.watch-button{
+    background-color: #E02C6D;
+    width: 200px;
+    height: 44px;
+    margin-left: 180px;
+}
+
+
+
+
+
+    
+
+  
