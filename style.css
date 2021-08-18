@@ -67,8 +67,8 @@ nav {
 }
 .watch-button{
     background-color: #E02C6D;
-    width: 200px;
-    height: 44px;
+    width: 220px;
+    height: 60px;
     margin-left: 180px;
     border-radius: 5px;
     
@@ -95,40 +95,96 @@ nav {
 /* -------------------------------------------------------------------------------Main Body--------------------- */
 
 .players{
-    margin: 180px;
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-right: 240px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px; 
+    grid-gap: 30px; 
+    
 }
 .player{
     background-color: rgb(246, 246, 246);
     border: 4px;
-    width: 390px;
-    height: 560px;
-    margin-top: px;
+    width: 430px;
+    height: 600px;
+    margin-top: 25px;
+    box-shadow: 2px 2px 50px -15px #6C6C6C;
 }
 article{
     padding: 20px;
 }
 .player img{
-    width: 350px;
-    height: 300px;
+    width: 390px;
+    height: 350px;
 }
 .player-name{
     color: #18191F;
     font-size: 40px;
     font-weight: bold;
     font-family: "poppins";
-    margin-top: 16px;
+    margin-top: 10px;
 }
 .player-details{
     color: #6C6C6C;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "poppins";
+    padding-bottom: 50px;
+    
 }
 
+/* --------Match-highlights-design */
 
+.match-highlights{
+    display: flex;
+    
+}
+.highlight{
+    border: 1px ;
+    width: 700px;
+    height: 600px;
+    margin-top: 250px;
+    margin-left: 230px ;
+}
 
-
+.match-headline{
+    font-family: "poppins";
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.match-details{
+    font-family: "poppins";
+    color: #6C6C6C;
+    font-size: 20px;
+    margin-bottom: 40px;
+    
+}
+.watch-now{
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+}
+.watch-now-button{
+    background-color: #E02C6D;
+    width: 220px;
+    height: 60px;
+    border-radius: 2px;
+}
+.highlight-image img{
+    width: 720px;
+    height: 550px;
+    position: relative;
+    top: 230px;
+    left: 60px;
+}
+.image{
+    margin-left: 190px;
+    
+}
     
 
   
