@@ -7,7 +7,7 @@ body{
 }
 .home-container{
     background-color: #2D25A0;
-    width: 1920px;
+    width: 1895px;
     height: 920px;
 }
 .home-bar a {
@@ -116,7 +116,7 @@ article{
 }
 .player img{
     width: 390px;
-    height: 350px;
+    height: 320px;
 }
 .player-name{
     color: #18191F;
@@ -137,6 +137,7 @@ article{
 
 .match-highlights{
     display: flex;
+    
     
 }
 .highlight{
@@ -179,12 +180,43 @@ article{
     height: 550px;
     position: relative;
     top: 230px;
-    left: 60px;
+    left: 90px;
 }
-.image{
-    margin-left: 190px;
-    
+.highlight-image-second img{
+    width: 720px;
+    height: 550px;
+    position: relative;
+    top: 230px;
+    left: 100px;
 }
-    
 
-  
+
+
+/* ---------------------------------------------------------------Fotter Design ---------------------------------------------- */
+
+
+.logo img{
+    width: 600px;
+    position: relative;
+    left: 650px;
+    top: 90px;
+}
+
+.icon img{
+    height: 55px;
+    position: relative;
+    top: 100px;
+    left: 800px;
+    padding-left: 20px;
+}
+.copyright{
+    font-family: "poppins";
+    font-size: 22px;
+    position: relative;
+    top: 100px;  
+    padding-left: 825px;
+}
+.footer{
+    margin-bottom: 250px;
+}
+
