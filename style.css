@@ -226,10 +226,16 @@ article{
 
 /* ----------------For Mobile ---------------*/
 
-@media (max-width: 481px) 
-{
+@media (max-width: 481px) {
+    header{
+        width: 480px;
+    }
+    main{ 
+        width: 480px;
+        
+    }
     .home-container{
-        width: 100vw;
+        width: 70vw;
         height: 750px;
     }
     .home-bar{
@@ -237,7 +243,7 @@ article{
     }
     .login-bar{
         position: absolute;
-        right: 5vw;
+        right: 35vw;
         
     }
     .login-bar a{
@@ -259,10 +265,10 @@ article{
         margin-left: 20px ;
     }
     .banner-image img{
-        width: 90vw;
+        width: 325px;
         height: 270px;
         position: absolute;
-        left: 15px;
+        left: 5px;
         top: 450px;
     }
     
@@ -273,15 +279,15 @@ article{
         flex-direction: column;
     }
     .player img{
-        width: 90vw;
-        height: 270px;
+        width: 310.5px;
+        height: 256px;
         margin-top: -1.8vw;
         margin-left: -1.8vw;
         
     }
     
     .player{
-        width: 95vw;
+        width: 70vw;
         margin-right: 0%;
         margin-left: -50vw;
     }
@@ -308,7 +314,6 @@ article{
     
     .highlight{
         margin-left: -1.8vw;
-        
     }
 
     .match-headline{
@@ -327,16 +332,16 @@ article{
     }
 
     .highlight-image img{
-        width: 92vw;
-        height: 260px;
+        width: 315px;
+        height: 248px;
         margin-left: -1.8vw;
         top: -120px;
         left: 20px;
     }
     
     .highlight-image-second img{
-        width: 92vw;
-        height: 260px;
+        width: 315px;
+        height: 248px;
         margin-left: -1.8vw;
         top: -120px;
         left: 20px;
@@ -347,25 +352,25 @@ article{
 
 
     .logo img{
-        width: 330px;
+        width: 300px;
         height: 80px;
         position: relative;
         top: -50px;
-        left: 65px;
+        left: 15px;
 
     }
     .icon img{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         position: relative;
         top: -30px;
-        left: 110px;
+        left: 60px;
     }
     
     .copyright{
         font-size: 18px;
         width: 80vw;
-        padding-left: 31%;
+        padding-left: 17%;
         position: relative;
         top: -30px;
     }
