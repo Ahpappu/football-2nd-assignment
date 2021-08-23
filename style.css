@@ -229,7 +229,7 @@ article{
 @media (max-width: 481px) 
 {
     .home-container{
-        width: 75vw;
+        width: 100vw;
         height: 750px;
     }
     .home-bar{
@@ -237,7 +237,7 @@ article{
     }
     .login-bar{
         position: absolute;
-        right: 30vw;
+        right: 5vw;
         
     }
     .login-bar a{
@@ -259,7 +259,7 @@ article{
         margin-left: 20px ;
     }
     .banner-image img{
-        width: 330px;
+        width: 90vw;
         height: 270px;
         position: absolute;
         left: 15px;
@@ -273,15 +273,15 @@ article{
         flex-direction: column;
     }
     .player img{
-        width: 310px;
-        height: 256px;
+        width: 90vw;
+        height: 270px;
         margin-top: -1.8vw;
         margin-left: -1.8vw;
         
     }
     
     .player{
-        width: 70vw;
+        width: 95vw;
         margin-right: 0%;
         margin-left: -50vw;
     }
@@ -308,6 +308,7 @@ article{
     
     .highlight{
         margin-left: -1.8vw;
+        
     }
 
     .match-headline{
@@ -326,16 +327,16 @@ article{
     }
 
     .highlight-image img{
-        width: 335px;
-        height: 248px;
+        width: 92vw;
+        height: 260px;
         margin-left: -1.8vw;
         top: -120px;
         left: 20px;
     }
     
     .highlight-image-second img{
-        width: 335px;
-        height: 248px;
+        width: 92vw;
+        height: 260px;
         margin-left: -1.8vw;
         top: -120px;
         left: 20px;
@@ -346,25 +347,25 @@ article{
 
 
     .logo img{
-        width: 300px;
+        width: 330px;
         height: 80px;
         position: relative;
         top: -50px;
-        left: 15px;
+        left: 65px;
 
     }
     .icon img{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         position: relative;
         top: -30px;
-        left: 60px;
+        left: 110px;
     }
     
     .copyright{
         font-size: 18px;
         width: 80vw;
-        padding-left: 17%;
+        padding-left: 31%;
         position: relative;
         top: -30px;
     }
