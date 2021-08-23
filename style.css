@@ -220,3 +220,157 @@ article{
     margin-bottom: 250px;
 }
 
+
+/* ----------------Media Queries ------------*/
+
+/* ----------------For Mobile ---------------*/
+
+@media (max-width: 481px) {
+    header{
+        width: 480px;
+    }
+    main{ 
+        width: 480px;
+        
+    }
+    .home-container{
+        width: 70vw;
+        height: 750px;
+    }
+    .home-bar{
+        visibility: hidden;
+    }
+    .login-bar{
+        position: absolute;
+        right: 35vw;
+        
+    }
+    .login-bar a{
+        font-size:15px;
+        padding-left: 5px;
+    }
+    .login{
+        width: 120px;
+        height: 50px;
+    }
+    .headline{
+        font-size: 35px;
+        padding-left:20px;
+        margin-top: -150px;
+    }
+    .watch-button{
+        width: 180px;
+        height: 50px;
+        margin-left: 20px ;
+    }
+    .banner-image img{
+        width: 325px;
+        height: 270px;
+        position: absolute;
+        left: 5px;
+        top: 450px;
+    }
+    
+    /* main-part */
+
+    .players{
+        display: flex;
+        flex-direction: column;
+    }
+    .player img{
+        width: 290px;
+        height: 256px;
+        margin-top: -1.8vw;
+        margin-left: -1.8vw;
+        
+    }
+    
+    .player{
+        width: 65vw;
+        margin-left: -50vw;
+    }
+
+    .player-name{
+        width: 280px;
+        margin-left: -8px;
+        font-size: 35px;
+
+    } 
+
+    .player-details{
+        margin-left: -8px;
+    }
+    
+
+
+    /* Match-highlights-start */
+
+    .match-highlights{
+        display: block;
+
+    }
+    
+    .highlight{
+        margin-left: -1.8vw;
+    }
+
+    .match-headline{
+        font-size: 30px;
+        font-weight: bold;
+        margin: auto;
+    }
+    .match-details{
+        font-size: 16px;
+        width: 320px;
+        
+    }
+    .watch-now-button{
+        width: 173px;
+        height: 44px;
+    }
+
+    .highlight-image img{
+        width: 315px;
+        height: 248px;
+        margin-left: -1.8vw;
+        top: -120px;
+        left: 20px;
+    }
+    
+    .highlight-image-second img{
+        width: 315px;
+        height: 248px;
+        margin-left: -1.8vw;
+        top: -120px;
+        left: 20px;
+    }
+
+
+    /* Footer-Part */
+
+
+    .logo img{
+        width: 300px;
+        height: 80px;
+        position: relative;
+        top: -50px;
+        left: 15px;
+
+    }
+    .icon img{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: -30px;
+        left: 60px;
+    }
+    
+}   .copyright{
+    font-size: 18px;
+    width: 80vw;
+    padding-left: 12%;
+    position: relative;
+    top: -30px;
+    
+   
+}
