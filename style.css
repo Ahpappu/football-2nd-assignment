@@ -209,11 +209,11 @@ article{
     left: 800px;
     padding-left: 20px;
 }
-.copyright p{
+.copyright {
     font-family: "poppins";
     font-size: 25px;
-    position: absolute; 
-    bottom: -200px;
+    position: relative; 
+    bottom: -100px;
     left: -20px;
     padding-left: 825px;
 }
@@ -226,16 +226,10 @@ article{
 
 /* ----------------For Mobile ---------------*/
 
-@media (max-width: 481px) {
-    header{
-        width: 480px;
-    }
-    main{ 
-        width: 480px;
-        
-    }
+@media (max-width: 481px) 
+{
     .home-container{
-        width: 70vw;
+        width: 75vw;
         height: 750px;
     }
     .home-bar{
@@ -243,7 +237,7 @@ article{
     }
     .login-bar{
         position: absolute;
-        right: 35vw;
+        right: 30vw;
         
     }
     .login-bar a{
@@ -265,10 +259,10 @@ article{
         margin-left: 20px ;
     }
     .banner-image img{
-        width: 325px;
+        width: 330px;
         height: 270px;
         position: absolute;
-        left: 5px;
+        left: 15px;
         top: 450px;
     }
     
@@ -279,7 +273,7 @@ article{
         flex-direction: column;
     }
     .player img{
-        width: 290px;
+        width: 310px;
         height: 256px;
         margin-top: -1.8vw;
         margin-left: -1.8vw;
@@ -287,7 +281,8 @@ article{
     }
     
     .player{
-        width: 65vw;
+        width: 70vw;
+        margin-right: 0%;
         margin-left: -50vw;
     }
 
@@ -331,7 +326,7 @@ article{
     }
 
     .highlight-image img{
-        width: 315px;
+        width: 335px;
         height: 248px;
         margin-left: -1.8vw;
         top: -120px;
@@ -339,7 +334,7 @@ article{
     }
     
     .highlight-image-second img{
-        width: 315px;
+        width: 335px;
         height: 248px;
         margin-left: -1.8vw;
         top: -120px;
@@ -366,12 +361,11 @@ article{
         left: 60px;
     }
     
-}   .copyright{
-    font-size: 18px;
-    width: 80vw;
-    padding-left: 12%;
-    position: relative;
-    top: -30px;
-    
-   
+    .copyright{
+        font-size: 18px;
+        width: 80vw;
+        padding-left: 17%;
+        position: relative;
+        top: -30px;
+    }
 }
